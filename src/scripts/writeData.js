@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import { join } from 'path';
 
 export function writeJsonData(filename, data) {
-	const dataDir = new URL('../lib/data', import.meta.url).pathname;
+	const dataDir = "./src/lib/data";
 	if (!fs.existsSync(dataDir)) {
 		fs.mkdirSync(dataDir, { recursive: true });
 	}

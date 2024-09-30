@@ -6,7 +6,7 @@ import { writeJsonData } from '../../src/scripts/writeData.js';
 
 import aidesWithCollectivities from '../../src/lib/data/aides-collectivities.json' assert { type: 'json' };
 
-const currentPath = new URL('./', import.meta.url).pathname;
+const currentPath = './data-fetch/miniatures/';
 const repoPath = join(currentPath, 'aides-jeunes-repo/');
 const rootPath = join(currentPath, '../../');
 const metadataDirectory = join(repoPath, 'data/institutions/');

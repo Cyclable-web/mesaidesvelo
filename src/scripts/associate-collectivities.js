@@ -8,7 +8,7 @@ import epci from '@etalab/decoupage-administratif/data/epci.json' assert { type:
 import departements from '@etalab/decoupage-administratif/data/departements.json' assert { type: 'json' };
 import regions from '@etalab/decoupage-administratif/data/regions.json' assert { type: 'json' };
 
-const sourceRules = fs.readFileSync(new URL('../aides.yaml', import.meta.url).pathname, 'utf8');
+const sourceRules = fs.readFileSync('./src/aides.yaml', 'utf8');
 
 const engine = new Publicodes(parse(sourceRules));
 

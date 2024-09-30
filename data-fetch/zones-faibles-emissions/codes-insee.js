@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-const rawText = fs.readFileSync(new URL('./zfe-m_liste.txt', import.meta.url).pathname, 'utf8');
+const rawText = fs.readFileSync('./data-fetch/zones-faibles-emissions/zfe-m_liste.txt', 'utf8');
 
 const matchRegex = /^[0-9]{2}\s([0-9]{5})/;
 

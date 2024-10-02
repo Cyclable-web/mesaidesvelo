@@ -5,7 +5,7 @@
 		"postinstall": "node ./src/scripts/postinstall.js",
 		"dev": "VITE_SITE=mesaidesvelo.fr vite dev",
 		"dev:retrofit": "VITE_SITE=aideretrofit.fr vite dev",
-		"build": "VITE_SITE=mesaidesvelo.fr vite build",
+		"build": "npm run postinstall && npm run sync-entreprises && npm run sync && VITE_SITE=mesaidesvelo.fr vite build",
 		"build:retrofit": "VITE_SITE=aideretrofit.fr vite build",
 		"preview": "VITE_SITE=mesaidesvelo.fr vite preview",
 		"sync-entreprises": "node ./data-fetch/entreprises/download-gsheet-data.js",

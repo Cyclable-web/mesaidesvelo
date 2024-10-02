@@ -18,7 +18,7 @@
 
 <style>
 	input[type='radio'] {
-		--form-control-color: #059669;
+		--form-control-color: #B5131D;
 		appearance: none;
 		background-color: white;
 		margin: 0;

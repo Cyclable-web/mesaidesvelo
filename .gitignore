@@ -10,6 +10,7 @@ local/
 *.tmp
 *.tmp.*
 data-fetch/miniatures/aides-jeunes-repo
+.vscode/
 
 # Generated at build time
 src/lib/data/*

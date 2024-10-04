@@ -6,42 +6,8 @@
 		<meta name="theme-color" content="#A6F0CE" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
-		
-		<!-- Styles pour le bouton -->
-		<style>
-			.btn-subventions {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				width: 40%;
-				margin: auto;
-				padding: 10px 16px;
-				font-size: 16px;
-				line-height: 45px;
-				text-transform: uppercase;
-				background-color: #fff;
-				color: #b5131d;
-				border: 3px solid #b5131d;
-				border-radius: 50px;
-				text-decoration: none;
-				transition: all 0.1s;
-			}
-			
-			.btn-subventions:hover {
-				background-color: #b5131d;
-				color: #fff;
-				cursor: pointer;
-				text-decoration: none;
-			}
-		</style>
 	</head>
 	<body>
-		<!-- Bouton avec classes -->
-		<a href="https://www.cyclable.com/subventions-velo-aides-et-primes/" target="_blank" class="btn-subventions">
-			Voir notre page de subventions
-		</a>
-
-		<!-- Contenu principal -->
-		<div style="display: contents">%sveltekit.body%</div>
+		%sveltekit.body%
 	</body>
 </html>
